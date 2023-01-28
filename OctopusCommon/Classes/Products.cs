@@ -1,8 +1,6 @@
-﻿using System.Text.Json.Serialization;
+﻿namespace OctopusCommon.Classes;
 
-namespace OctopusEnergy.Classes;
-
-internal class Products
+internal class Products : IProducts
 {
     [JsonPropertyName("count")] public int Count { get; set; }
 
@@ -10,5 +8,5 @@ internal class Products
 
     [JsonPropertyName("previous")] public object Previous { get; set; }
 
-    [JsonPropertyName("results")] public ProductData[] ProductData { get; set; }
+    [JsonPropertyName("results")] public IProductData[] ProductData { get; set; }
 }

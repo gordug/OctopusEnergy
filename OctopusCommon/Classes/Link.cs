@@ -1,8 +1,6 @@
-﻿using System.Text.Json.Serialization;
+﻿namespace OctopusCommon.Classes;
 
-namespace OctopusEnergy.Classes;
-
-internal class Link
+internal abstract class Link : ILink
 {
     [JsonPropertyName("href")] public string Href { get; set; }
 

@@ -1,8 +1,6 @@
-﻿using System.Text.Json.Serialization;
+﻿namespace OctopusCommon.Classes;
 
-namespace OctopusEnergy.Classes;
-
-internal class Meter
+internal class Meter : IMeter
 {
     [JsonPropertyName("gsp")] public string Gsp { get; set; }
 

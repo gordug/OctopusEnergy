@@ -1,9 +1,6 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿namespace OctopusCommon.Classes;
 
-namespace OctopusEnergy.Classes;
-
-internal class ConsumptionData
+internal class ConsumptionData : IConsumptionData
 {
     [JsonPropertyName("consumption")] public float Consumption { get; set; }
 

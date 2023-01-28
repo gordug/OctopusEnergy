@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctopusEnergy", "OctopusEnergy\OctopusEnergy.csproj", "{7107BBD5-410D-458D-8C6F-540B582C03CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctopusCommon", "OctopusCommon\OctopusCommon.csproj", "{7107EB14-6D88-4B1F-A0C6-53F4EA9DC987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7107BBD5-410D-458D-8C6F-540B582C03CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7107BBD5-410D-458D-8C6F-540B582C03CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7107BBD5-410D-458D-8C6F-540B582C03CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7107EB14-6D88-4B1F-A0C6-53F4EA9DC987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7107EB14-6D88-4B1F-A0C6-53F4EA9DC987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7107EB14-6D88-4B1F-A0C6-53F4EA9DC987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7107EB14-6D88-4B1F-A0C6-53F4EA9DC987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

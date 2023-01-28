@@ -1,9 +1,6 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿namespace OctopusCommon.Classes;
 
-namespace OctopusEnergy.Classes;
-
-internal class ProductData
+internal class ProductData : IProductData
 {
     [JsonPropertyName("code")] public string Code { get; set; }
 
@@ -33,5 +30,5 @@ internal class ProductData
 
     [JsonPropertyName("available_to")] public DateTime? AvailableTo { get; set; }
 
-    [JsonPropertyName("links")] public Link[] Links { get; set; }
+    [JsonPropertyName("links")] public ILink[] Links { get; set; }
 }
