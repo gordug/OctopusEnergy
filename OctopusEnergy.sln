@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctopusEnergy", "OctopusEnergy\OctopusEnergy.csproj", "{7107BBD5-410D-458D-8C6F-540B582C03CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7107BBD5-410D-458D-8C6F-540B582C03CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7107BBD5-410D-458D-8C6F-540B582C03CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7107BBD5-410D-458D-8C6F-540B582C03CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7107BBD5-410D-458D-8C6F-540B582C03CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62495FEA-34B9-4EDA-8EFB-7C6EBA6E22F6}
+	EndGlobalSection
+EndGlobal
